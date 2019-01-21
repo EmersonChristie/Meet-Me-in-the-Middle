@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:weightSum="100"
+    android:id="@+id/row">
+
+    <ImageView
+        android:id="@+id/meet_type_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_settings_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="80"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/location"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textStyle="bold"
+            android:layout_marginVertical="1dp"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/invited"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invited Person"
+            android:layout_marginVertical="1dp"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="20"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

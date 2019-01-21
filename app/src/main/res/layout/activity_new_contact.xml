@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewContactActivity"
+    android:background="@drawable/primary_rounded_rectangle">
+
+    <EditText
+        android:id="@+id/newName"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="106dp"
+        android:background="@drawable/white_rounded_rectangle"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/newNumber"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="198dp"
+        android:background="@drawable/white_rounded_rectangle"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/newName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:text="Create a Contact"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="292dp"
+        android:layout_marginLeft="292dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/add_circle"
+        android:onClick="addContact" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignTop="@+id/newNumber"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-65dp"
+        android:layout_marginRight="20dp"
+        android:layout_toStartOf="@+id/newName"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+       android:layout_alignTop="@+id/newName"
+        android:layout_alignEnd="@+id/imageView"
+        app:srcCompat="@drawable/person_icon" />
+</RelativeLayout>

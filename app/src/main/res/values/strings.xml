@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">mmitm</string>
+
+    <string name="google_maps_api_key">AIzaSyBJx-tl_t_W3iGxIgmvpu89RHPVFBLvH_E</string>
+
+    <string name="user_name">Emily Beach</string>
+    <string name="user_email">emilyb@gmail.com</string>
+    <string name="bottomnav_title_new">New"</string>
+    <string name="bottomnav_title_recent">Recent</string>
+    <string name="bottomnav_title_contacts">Contacts</string>
+    <string name="bottomnav_title_invites">Invites</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_loc">Enter Start Locations</string>
+
+</resources>

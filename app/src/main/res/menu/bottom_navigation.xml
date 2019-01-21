@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/nav_new"
+        android:icon="@drawable/ic_map_24dp"
+        android:title="@string/bottomnav_title_new"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_recent"
+        android:icon="@drawable/ic_recent_24dp"
+        android:title="@string/bottomnav_title_recent"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_contacts"
+        android:icon="@drawable/ic_contacts_24dp"
+        android:title="@string/bottomnav_title_contacts"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_invites"
+        android:icon="@drawable/ic_invites_24dp"
+        android:title="@string/bottomnav_title_invites"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
